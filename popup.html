@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <style>
+      #footer {
+        display: block;
+        text-align: justify;
+      }
+      #cta {
+          display: block;
+          text-align: center;
+        }
+      #domain_name {
+          display: block;
+          text-align: center;
+          margin-top: 6px;
+          font-weight: bold;
+        }
+      #go_button {
+        display: none;
+        margin-top: 10px;
+        padding: 10px 16px;
+        font-size: 14px;
+        background-color: color(srgb 0.08 0.36 0.99);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      #go_button:hover {
+        background-color: color(srgb 0.07 0.28 0.9);
+      }
+
+      #go_button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+      }
+      #no_CA {
+          display: block;
+          text-align: center;
+          margin-top: 6px;
+        }
+    </style>
+  </head>
+  <body>
+    
+    <img src="dyorhublogo.png" /><br /><br />
+    <span id="domain_name"></span>
+    <span id="cta">
+      <button id="go_button">Access Insights</button>
+    </span>
+    <span id="no_CA"></span>
+    
+    <script src="popup.js"></script><br /><br />
+    
+    <small id="footer">This extension allow you to quickly access DYORHUB community insights of the token currently shown</small>
+  </body>
+</html>
