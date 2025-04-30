@@ -14,6 +14,7 @@
   "host_permissions": [
     "https://gmgn.ai/*",
     "https://pump.fun/*",
-    "https://dexscreener.com/*"
+    "https://dexscreener.com/*",
+    "https://axiom.trade/*"
   ]
 }

@@ -11,4 +11,7 @@ It currently works with:
 - gmgn.ai
 - dexscreener.com
 - pump.fun
+- axiom.trade
+
+
 

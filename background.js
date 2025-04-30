@@ -15,6 +15,11 @@ if (changeInfo.status === "complete" && tab.url) {
           target: { tabId },
           files: ["injectLink_dexscreener_com.js"]
         });
+    } else if (tab.url.includes("axiom.trade")) {
+        chrome.scripting.executeScript({
+          target: { tabId },
+          files: ["injectLink_axiom_trade.js"]
+        });
     }
 }
 });
