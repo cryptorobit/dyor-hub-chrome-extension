@@ -17,7 +17,6 @@
             .find(el => el.textContent?.trim() === "Price USD");
         
         if (!priceLabel) {
-            console.log("DYORHUB: 'Price USD' label not found – waiting...");
             return;
         }
         
@@ -28,7 +27,6 @@
         }
         
         if (!container || !container.classList.contains("chakra-stack")) {
-            console.log("DYORHUB: Container principale non trovato");
             return;
         }
         
@@ -50,7 +48,7 @@
         `;
         
         container.appendChild(dyorBtn); // oppure container.prepend(dyorBtn) se lo vuoi in alto
-        console.log("DYORHUB: Button injected into main container");
+        console.log("DYORHUB: Button injected!");
         observer.disconnect();
         clearTimeout(failSafeTimeout);
     };
