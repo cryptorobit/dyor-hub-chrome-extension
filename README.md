@@ -1,3 +1,6 @@
+This Chrome extension add quick link to dyorhub to some of the most popular solana trading websites
+It works only for pump.fun tokens
+
 How to use:
 - clone this repo locally
 - go to chrome
