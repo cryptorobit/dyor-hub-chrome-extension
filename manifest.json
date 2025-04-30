@@ -7,5 +7,13 @@
     "default_popup": "popup.html",
     "default_icon": "dyorhub.png"
   },
-  "permissions": ["tabs"]
+  "permissions": ["tabs","activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "https://gmgn.ai/*",
+    "https://pump.fun/*",
+    "https://dexscreener.com/*"
+  ]
 }
